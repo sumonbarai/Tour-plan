@@ -1,0 +1,132 @@
+.header {
+  background-color: orange;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+}
+.form-area {
+  background-color: #de9947;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.form-area input {
+  margin: 5px;
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 0;
+  border: 2px solid transparent;
+  min-width: 400px;
+}
+.form-area label {
+  margin: 5px;
+}
+.form-area input:focus {
+  outline: 3px solid orange;
+}
+.form-area button {
+  background-color: #b7d118;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: transform 0.2s;
+}
+.form-area button:active {
+  background-color: red;
+  transform: scale(0.9);
+}
+.content-area {
+  background-color: aliceblue;
+  min-height: 72.5vh;
+}
+.content-area h2 {
+  text-align: center;
+  padding: 20px;
+}
+.content {
+  max-width: 1170px;
+  margin: auto;
+  padding: 10px;
+}
+.content ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.content ul li {
+  list-style: none;
+  background-color: #de9947;
+  margin: 3px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.lineThrough {
+  text-decoration: line-through;
+}
+.content ul li input {
+  width: 20px;
+  height: 20px;
+  accent-color: #b7d118;
+  cursor: pointer;
+}
+.content ul li span {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.filter-area {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+.filter-area button {
+  background-color: #b7d118;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: transform 0.2s;
+}
+.filter-area button:active {
+  transform: scale(0.9);
+}
+.filter-area select {
+  width: 150px;
+  padding: 5px;
+  border: 2px solid #b7d118;
+  border-radius: 2px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.filter-area select:focus {
+  outline: 1px solid #b7d118;
+}
+
+.footer {
+  background-color: #de9947;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+}
